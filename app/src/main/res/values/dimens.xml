@@ -2,7 +2,13 @@
 <resources>
     <dimen name="numberPadding">35dp</dimen>
     <dimen name="buttonNumberPadding">25dp</dimen>
+
     <dimen name="cornerRadius">15dp</dimen>
-    <dimen name="button_layout_width">74dp</dimen>
-    <dimen name="button_layout_height">88dp</dimen>
+
+    <dimen name="button_layout_width">190dp</dimen>
+    <dimen name="button_layout_height">135dp</dimen>
+
+    <dimen name="button_layout_width_EditText">392dp</dimen>
+    <dimen name="button_layout_height_EditText">67dp</dimen>
+
 </resources>

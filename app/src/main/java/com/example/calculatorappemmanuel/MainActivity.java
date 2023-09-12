@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         EditText num2 = findViewById(R.id.num_Two);
         double num2D = Double.parseDouble(num2.getText().toString());
 
-        EditText answer = findViewById(R.id.num_answer);
+        TextView answer = findViewById(R.id.num_answer);
         String answerValue = String.valueOf((num1D+num2D));
         answer.setText(answerValue);
     }
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         EditText num2 = findViewById(R.id.num_Two);
         double num2D = Double.parseDouble(num2.getText().toString());
 
-        EditText answer = findViewById(R.id.num_answer);
+        TextView answer = findViewById(R.id.num_answer);
         String answerValue = String.valueOf((num1D-num2D));
         answer.setText(answerValue);
     }
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         EditText num2 = findViewById(R.id.num_Two);
         double num2D = Double.parseDouble(num2.getText().toString());
 
-        EditText answer = findViewById(R.id.num_answer);
+        TextView answer = findViewById(R.id.num_answer);
         String answerValue = String.valueOf((num1D*num2D));
         answer.setText(answerValue);
     }
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         EditText num2 = findViewById(R.id.num_Two);
         double num2D = Double.parseDouble(num2.getText().toString());
 
-        EditText answer = findViewById(R.id.num_answer);
+        TextView answer = findViewById(R.id.num_answer);
         String answerValue = String.valueOf((num1D/num2D));
         answer.setText(answerValue);
     }
